@@ -1,0 +1,81 @@
+
+body {
+    background: linear-gradient(135deg, #b09aff 0%, #fad0c4 100%);
+    font-family: "Playfair Display", serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+main {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: "Rubik Wet Paint", system-ui;
+    font-size: 4.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+p {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 30px;
+    animation: fadeIn 2.5s ease-in-out;
+}
+
+button {
+    width: 250px;
+    height: 60px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    animation: fadeIn 3s ease-in-out;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+#quoteDisplay {
+    font-size: 2rem;
+    font-style: italic;
+    color: #333;
+    margin-top: 30px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+#authorDisplay {
+    font-size: 1.5rem;
+    color: #555;
+    font-weight: bold;
+    margin-top: 10px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
